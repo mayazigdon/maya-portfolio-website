@@ -1,0 +1,161 @@
+
+.top-container{
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 0%;
+}
+.top-container>h1{
+font-family: 'Sacramento', cursive;
+padding: 0;
+margin: 0;
+font-size: 80px;
+color: #5F6F52;
+}
+
+.top-container>h3{
+    font-family: 'Sacramento', cursive;
+    color: #A9B388;
+    font-size: xx-large;
+}
+
+#one{
+    width: 100%;
+    height: 500px;
+    background-color: #FEFAE0;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.tree{
+    margin-right: 900px;
+    margin-bottom: 200px;
+    padding-bottom: 50px;
+    padding-top: 0%;
+    margin-top: 0;
+}
+
+#third>.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    gap: 80px;
+    margin-left: 60px;
+}
+.education{
+    background-color: #A9B388;
+    border-radius: 5%;
+    padding: 30px;
+}
+
+.work-experience{
+    background-color: #5F6F52;
+    border-radius: 5%;
+    padding: 30px;
+}
+.grades{
+    background-color: #5F6F52;
+    border-radius: 5%;
+    padding: 30px;
+}
+.projects{
+    background-color: #A9B388;
+    border-radius: 5%;
+    padding: 30px;
+}
+#third h3{
+    font-size: x-large;
+}
+
+hr.line{
+    border-top: 7px dotted #A9B388;
+    width: 20%;
+    margin-left: 500px;
+}
+
+.contact-me{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+
+.contact-me>h2{
+    color: #5F6F52;
+}
+
+#fifth{
+    background-color: #FEFAE0;
+    height: 200px;
+}
+  
+/* for smartphones*/
+@media(max-width: 400px){ 
+    .top-container img{
+        height: 100px;
+    }
+    .top-container h1{
+        font-size: x-large;
+    }
+    .top-container h3{
+        font-size: large;
+    }
+    .top-container .tree{
+        margin-left: 50px;
+        height: 150px;
+        margin-top: 30px;
+    }
+
+    #one{
+        height: 300px;
+    }
+
+    #second img{
+        height: 100px;
+    }
+
+    #second h1{
+        font-size: x-large;
+    }
+    #second p{
+        font-size: medium;
+    }
+
+    #third>.container{
+        margin-left: 0%;
+        padding: 10px;
+        gap: 40px;
+    }
+
+
+    #third h2{
+        font-size: large;
+    }
+
+    #third h3{
+        font-size: medium;
+    }
+
+    #third p{
+        font-size: x-small;
+    }
+    #third li{
+        font-size: x-small;
+    }
+
+}
+
+/* for copmuter screen */
+@media(min-width: 1600px ){
+    #third>.container{
+        margin-left: 300px;
+    }
+
+    hr.line{
+        margin-top: 60px;
+        margin-left: 750px;
+    }
+}
